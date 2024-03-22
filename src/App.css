@@ -1,3 +1,30 @@
+/* body {
+  background-image: linear-gradient(
+    to right,
+    rgb(79, 71, 200, 0.1) 40%,
+    rgba(29, 213, 208, 0.1) 22%
+  );
+} */
+
 body {
-  background-color: black;
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) 5%,
+    rgba(249, 248, 255, 1) 60%,
+    rgba(174, 242, 240, 0.1) 80%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) 5%,
+    rgba(249, 248, 255, 1) 60%,
+    rgba(174, 242, 240, 0.1) 80%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) 5%,
+    rgba(249, 248, 255, 1) 60%,
+    rgba(174, 242, 240, 0.1) 80%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#aef2f0",GradientType=1);
 }
