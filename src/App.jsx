@@ -1,3 +1,5 @@
+// import Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
